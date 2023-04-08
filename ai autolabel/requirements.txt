@@ -1,0 +1,7 @@
+pip install cv2
+pip install os
+pip install shutil
+pip install tqdm 
+pip install time
+pip install random
+pip install pytube
