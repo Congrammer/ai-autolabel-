@@ -1,9 +1,0 @@
-double click on the code once opened write the title or keyword to search on youtube the second key that is requested would be the name of the channel but it can easily be used as a second keyword, the code searches for the video downloads it saves the title in the log .txt so as not to download duplicates, divides the video into frames, analyzes the frames and eliminates the frames it deems incorrect, then analyzes the remaining frames and edits them for yolo training, builds a folder with train and valid inside with the corresponding images and labels.
-
-the code builds a folder with a progressive name for each video so you will have to manually cut the two folders and paste them in the path where you have the complete dataset
-
-finally there is a second control code that checks the images and the labels if an image is missing but the label is present in the dataset it eliminates the label with the missing image this is useful when you manually review the results and maybe there are some unwanted images
-
-the code works in a loop so until it is manually interrupted with the closure of the task it will continue to search and build the datasets
-
-if you interrupt the process while it has already downloaded the video I should delete the folders frame extracted and download and delete from the log the last name saved in this way at the next restart it will not exclude that video that you have not added to the dataset (if in the download folder there are more videos the code is set to process them all so be careful not to leave videos in dowoad that you are not interested in)
